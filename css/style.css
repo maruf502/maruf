@@ -1,0 +1,176 @@
+/* Heading-area-Start */
+.header-area{
+    background-color: #1F203A;
+    padding: 20px 0px;
+}
+
+.header-area i.fa-brands.fa-think-peaks.fs-1.text-light {
+    font-size: 50px !important;
+}
+
+/* Heading-area-End */
+
+
+/* Profile-area-Start */
+
+.second-area-start{
+    background-color: #FCEB21;
+}
+
+.second-area-start img{
+    height: 500px;
+    margin: 50px;
+    border-radius: 100px 0px 100px 0px;
+}
+
+
+.second-area-start .my-Information .My-Identity{
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin: 100px 0px 25px;
+}
+
+.second-area-start .my-Information i{
+    font-size: 50px;
+}
+
+/* Profile-area-End */
+
+
+/* Gallary-area Start*/
+
+
+.disign-area{
+    background-color: hsl(238, 30%, 17%);
+    color: #ffffff;
+    padding: 200px 0px;
+}
+
+.disign-area h2.work-heading{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 50px 0px;
+}
+
+.disign-area h5 {
+    font-size: 25px;
+    margin: 50px 0px;
+}
+
+.disign-area p.work-datails {
+    font-size: 22px;
+    width: 50%;
+    line-height: 40px;
+    word-spacing: 5px;
+    margin: auto;
+}
+
+.disign-area .button-area{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.disign-area .more-datils {
+    color: black;
+    padding: 15px 40px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.disign-area .more-datils:hover{
+    color: black;
+    background-color: #FCEB21;
+}
+
+.images-area{
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.images-area:hover {
+    transform: scale(1.1);
+  }
+
+  /* Gallary-area END*/
+
+  /* Footer-area Start*/
+
+.footer-area{
+    background-color: #FCEB21;
+    padding: 70px 0px;
+  }
+
+.footer-area form .name-area input[type="text"]{
+   width: 100%;
+   padding: 15px 0px;
+   background-color: #FCEB21;
+   border: none;
+   padding-left:20px ;
+   margin: 20px 0px;
+   border-bottom: 2px solid black;
+  }
+
+.footer-area form .email-area input[type="email"]{
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #FCEB21;
+    border: none;
+    padding-left:20px ;
+    margin: 20px 0px;
+    border-bottom: 2px solid black;
+  }
+
+textarea {
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #FCEB21;
+    border: none;
+    padding-left:20px ;
+    margin: 20px 0px;
+    border-bottom: 2px solid black;
+
+  }
+
+input[type="button"] {
+    padding: 10px 50px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #FCEB21;
+}
+
+input[type="button"]:hover{
+    background-color:black;
+    color: #ffffff;
+}
+
+.footer-area .contact-heading h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 50px 0px 30px;
+}
+
+.footer-area .social-icon i{
+    font-size: 35px;
+    margin-left: 25px;
+    cursor: pointer;
+    color: black;
+}
+
+.footer-area .social-icon i:hover{
+    color: #198eb1;
+    transition: 0.5s;
+}
+
+.footer-area .contact-info{
+    margin: 30px 0px;
+}
+
+.footer-area .contact-info p a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
