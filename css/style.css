@@ -1,3 +1,9 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
 /* Heading-area-Start */
 .header-area{
     background-color: #1F203A;
@@ -15,6 +21,7 @@
 
 .second-area-start{
     background-color: #FCEB21;
+    overflow: hidden;
 }
 
 .second-area-start img{
@@ -173,4 +180,23 @@ input[type="button"]:hover{
     font-size: 25px;
     text-decoration: none;
     color: black;
+}
+
+
+
+/* Responsive Design With Mobile Version  */
+
+
+@media only screen and (max-width:480px){
+
+    .col-sm-6 {
+    width: 50%;
+}
+
+.second-area-start img {
+    height: 250px;
+    margin: 50px;
+    border-radius: 100px 0px 100px 0px;
+}
+
 }
